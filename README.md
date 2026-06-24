@@ -20,7 +20,7 @@ A high-level Python driver for the ICTP Comblock IP core on PYNQ. This driver si
 
 ## Installation
 
-Simply copy the `comblock.py` file into your Jupyter Notebook directory on your PYNQ board, or clone this repository:
+Simply copy the `comblock_driver.py` file into your Jupyter Notebook directory on your PYNQ board, or clone this repository:
 
 ```bash
 git clone https://github.com/jcgallego1/Comblock_API_for_PYNQ.git
