@@ -1,3 +1,12 @@
+<p align="left">
+  <img src="assets/logo_pynq.png" height="80" />
+  <img src="assets/header_comblock.png" height="80" />
+</p>
+<p align="left">
+    <img src="assets/facultad-exactas.png" height="80" />
+    <img src="assets/gicm_logo_white.png" height="80" />
+</p>
+
 # Comblock_API_for_PYNQ
 A high-level Python driver for the ICTP Comblock IP core on PYNQ. This driver simplifies communication between the Zynq Processing System (PS) and Programmable Logic (PL) by providing an easy-to-use API for AXI-Lite registers, FIFOs, and AXI-Full DRAM.
 
@@ -95,4 +104,5 @@ This project is licensed under the **BSD 3-Clause License** - see the [LICENSE](
 ## Acknowledgments
 
 - Based on the [ICTP Comblock IP](https://gitlab.com/rodrigomelo9/core-comblock/-/tree/master).
+- Special thanks to the [Group of Scientific Instrumentation and Microelectronics](https://www.udea.edu.co/wps/portal/udea/web/inicio/investigacion/grupos-investigacion/ciencias-naturales-exactas/instrumentacion-cientifica-microelectronica) for their invaluable support, guidance, and for providing the hardware resources necessary to develop and test this driver.
 
