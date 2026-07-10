@@ -28,11 +28,10 @@ A high-level Python driver for the ICTP Comblock IP core on PYNQ. This driver si
 - **Software**: [PYNQ](https://www.pynq.io/) package version v3.0.1 .
 
 ## Installation
-
-Simply copy the `comblock_driver.py` file into your Jupyter Notebook directory on your PYNQ board, or clone this repository:
+To copy only the branch of fifo_example to rebuild the vivado project use:
 
 ```bash
-git clone https://github.com/jcgallego1/Comblock_API_for_PYNQ.git
+git clone -b fifo_example --single-branch --recursive https://github.com/jcgallego1/Comblock_API_for_PYNQ.git
 ```
 
 ## Quick Start
