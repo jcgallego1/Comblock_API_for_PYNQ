@@ -1,6 +1,6 @@
 [submodule "Hog"]
 	path = Hog
 	url = ../../hog-cern/Hog.git
-[submodule "core-comblock"]
-	path = core-comblock
+[submodule "External/core-comblock"]
+	path = External/core-comblock
 	url = https://gitlab.com/rodrigomelo9/core-comblock.git
