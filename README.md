@@ -34,6 +34,29 @@ To copy only the branch of fifo_example to rebuild the vivado project use:
 git clone -b fifo_example --single-branch --recursive https://github.com/jcgallego1/Comblock_API_for_PYNQ.git
 ```
 
+Now to rebuild the vivado project 2024.2 from Hog we need to use the command to build the project:
+```bash
+./Hog/Do CREATE fifo_comblock_hog/
+```
+> [!NOTE]
+> It is important to have Vivado included in the PATH for Hog to work correctly.
+
+this will create the project, and the .xpr executable file from vivado is going to be located at:
+
+```text
+Projects/                    # GENERATED FOLDER (Do not commit to Git)
+ └── fifo_comblock_hog/      
+      └── fifo_comblock_hog.xpr # Vivado Project file
+```
+with this command we can run the project:
+```bash
+vivado fifo_comblock_hog.xpr
+```
+For more information and documentation refer to the [Hog documentation](https://hog.readthedocs.io/en/2024.2/02-User-Manual/00-what-is-hog.html) 
+
+
+
+
 ## Quick Start
 
 ### 1. Load the Overlay
